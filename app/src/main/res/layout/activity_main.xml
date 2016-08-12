@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ViewGroup approach (for multiple fragments) -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/placeHolder"
+    tools:context="com.uv.smellslikebakin.MainActivity">
+
+    <!-- Where in the activity should we place a fragment -->
+    <!-- just an empty viewgroup, which reserves a spot for a fragment
+    Fragment will take it's place -->
+    <!--
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.uv.smellslikebakin.ListFragment" />
+    -->
+
+</FrameLayout>
